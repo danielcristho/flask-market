@@ -3,6 +3,6 @@
   * masuk ke folder flask-market
   * buat envirnoment  : **python3 -m venv _Env**
   * aktifkan envirnoment : **source _Env/bin/activate**
-  * install requirement : **pip install -r requirement.txt**
+  * install requirements : **pip install -r requirement.txt**
   * running project : **python run.py**
   * buka browser, explore
