@@ -1,10 +1,12 @@
 ## How to Build
+
+ ```yml
+  $ git clone https://github.com/danielcristho/flask-market.git
+  $ python3 -m venv env
+  $ source env/bin/activate
+  $ pip install -r requirement.txt
+  $ python run.py
+ 
  ```
-  git clone https://github.com/danielcristho/flask-market.git
-  create envirnoment   : python3 -m venv env
-  activate envirnoment : source env/bin/activate
-  install requirements : pip install -r requirement.txt
-  running project      : python run.py
-  open browser
-  
- ```
+ ###  open browser 
+
