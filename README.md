@@ -8,5 +8,3 @@
   $ python run.py
  
  ```
- ###  open browser 
-
