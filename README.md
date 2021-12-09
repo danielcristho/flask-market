@@ -8,3 +8,10 @@
   $ python run.py
  
  ```
+
+### NB:
+rollback latest commit&changes
+
+```yml
+$ db.session.rollback()
+```
