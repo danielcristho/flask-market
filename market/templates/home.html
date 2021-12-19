@@ -1,8 +1,16 @@
 {% extends 'base.html' %}
 {% block title %}
-    Home Page
+    Welcome to Market
 {% endblock %}
 
 {% block content %}
-   Hi, this is home page
+   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark" style="color: white">
+        <div>
+            <h1 class="dislplay-4 font-weight-normal">Flask Market</h1>
+            <p class="lead font-weight-normal">Start purcashing product by clicking the link below</p>
+            <a class="btn btn-primary" href="{{ url_for('market_page') }}">Get started</a>
+        </div>
+        <div class="product-device box-shadow d-none d-md-block"></div>
+        <div class="pruduct-device product-device-2 box-shadow d-none d-md-block"></div>
+   </div>
 {% endblock %}
